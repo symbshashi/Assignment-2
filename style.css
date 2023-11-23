@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#img1 {
+    width: 100%;
+    height: 90%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(4px);
+    filter: blur(4px);
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.centered,
+.centered1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.centered1 {
+    top: 50%;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.custom-btn {
+    font-family: 'Nunito', sans-serif !important;
+    
+}
+#p1 {
+    text-align: left;
+    padding-top: 40px;
+    display: block;
+    width: 50%; 
+    margin: 0 auto; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    word-spacing: 10px;
+    font-weight: bold;
+    line-height: 2
+}
+.p2{
+    text-align: left;
+    padding-top: 30px;
+    display: block;
+    width: 50%; 
+    margin: 0 auto; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    word-spacing: 10px;
+    font-weight: bold;
+    line-height: 2
+}
+.bold-text {
+    font-weight: bold;
+}
+#contact{
+    text-align: left;
+    padding-top: 30px;
+    display: block;
+    width: 50%; 
+    margin: 0 auto; 
+    font-size: x-large;
+    font-weight: bolder;
+}
+.a1{
+    text-align: left;
+    padding-top: 10px;
+    display: block;
+    width: 50%; 
+    margin: 0 auto; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    word-spacing: 10px;
+    font-weight: bold;
+    line-height: 2
+
+}
+.a2{
+    text-align: left;
+    padding-top: 20px;
+    display: block;
+    width: 50%; 
+    margin: 0 auto; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    word-spacing: 10px;
+    font-weight: bold;
+    line-height: 2
+}
+.a3{
+    text-align: left;
+    padding-top: 20px;
+    display: block;
+    width: 50%; 
+    margin: 0 auto; 
+    font-size: large;
+    word-spacing: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+#gbtn{
+    background-color: #DD4A39;
+}
+#pbtn{
+    background-color: #C8232C;
+}
+#tbtn{
+    background-color: #54ACEE;
+}
+#fbtn{
+   background-color:  #3C5998;
+}
+#btnm1{
+    margin-left: 340px;
+}
+#t1{
+    background-color: #EA504F;
+}
+#t2{
+    background-color: #EA504F;
+}
+#h22{
+    background-color: #FBFBFB;
+    position: absolute;
+    display: flex;
+    margin-left: 1000px;
+}
